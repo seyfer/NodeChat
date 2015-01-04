@@ -1,0 +1,13 @@
+{
+    "name": "NodeChat",
+    "description": "A control panel for ASB with AngularJS",
+    "version": "0.0.1",
+    "homepage": "https://github.com/angular/angular-seed",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "bootstrap": "~3.2.*",
+        "html5-boilerplate": "~4.3.0",
+        "jquery": "~2.*"
+    }
+}

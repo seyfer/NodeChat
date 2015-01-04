@@ -1,0 +1,49 @@
+/* 
+    Created on : Jan 3, 2015, 7:30:36 PM
+    Author     : seyfer
+*/
+
+body, textarea, input {
+    font: 15px "Trebushet MS", sans-serif;
+}
+
+.chat {
+    /*max-width: 300px;*/
+}
+
+.chat-messages, .chat-name {
+    border: 1px solid #bbb;
+}
+
+.chat-messages {
+    width: 100%;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.chat-message {
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #ddd;
+}
+
+.chat-name, .chat-textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    outline: none;
+}
+
+.chat-name {
+    border-bottom: 0;    
+}
+
+.chat-textarea {
+    border-top: 0;
+    max-width: 100%;
+}
+
+.chat-status {
+    color: #bbb;
+}
